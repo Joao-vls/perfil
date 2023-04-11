@@ -51,7 +51,7 @@ function redes(){
     $(".grid").append(`
       <div class="rede">
       <p>`+chave+`</p>
-      <a href="`+contatos[chave].link+`">`+contatos[chave].logo+`</a>
+      <a target="_blank" href="`+contatos[chave].link+`">`+contatos[chave].logo+`</a>
       </div>
       `);
     }
