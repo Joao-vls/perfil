@@ -6,7 +6,7 @@ $(document).ready(()=>{
     if ($(".ocul")?.length && $(".mostra-img").width()==50) {
       $('.mod').removeClass('ocul');
       $(".mostra-img").animate({
-        width : '+=100',
+        width : '+=110',
         height : '+=150'
       },500)
     }
@@ -15,7 +15,7 @@ $(document).ready(()=>{
     if (!$(".ocul")?.length) {
       $('.mod').toggleClass('ocul');
       $(".mostra-img").animate({
-        width : '-=100',
+        width : '-=110',
         height : '-=150'
       },500)
     }

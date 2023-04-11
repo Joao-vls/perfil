@@ -28,7 +28,7 @@ span{
 }
 .opcoes{
   position: absolute;
-  width: 155px;
+  width: 165px;
   height: 70%;
   left: 20px;
   top: 140px;
@@ -37,11 +37,11 @@ span{
 }
 .opcoes button{
   background: none;
+  font-size: 18px;
   width: 100%;
   border: none;
   color: white;
   padding: 15px;
-  font-size: 15px;
   cursor: pointer;
   transition-duration:0.5s ;
 }
@@ -50,6 +50,8 @@ span{
   transition-duration:0.3s ;
 }
 .projeto-carrosel p{
+  font-size: 18px;
+  padding: 12px;
   cursor: default;
 }
 .opcoes button:hover{
@@ -59,7 +61,7 @@ span{
   position: absolute;
   width: 80%;
   height: 77%;
-  left: 200px;
+  left: 215px;
   top: 110px;
   border: 2px solid red;
   background-color: #131313;
@@ -103,7 +105,7 @@ span{
   position: absolute;
   width:84%;
   height: 90%;
-  background-image: url('../img/63e6e409cb865.jpg');
+  background-image: url('../img/foto.jpg');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
