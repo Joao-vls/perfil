@@ -41,6 +41,7 @@ function info_pessoa(){
 }
 function redes(){
   $(".content")?.remove();
+   $(".projeto-carrosel")?.remove();
   $(".visor").append(`    <div class="content">
   <div class="grid">
   </div>
