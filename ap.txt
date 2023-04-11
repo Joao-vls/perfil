@@ -1,0 +1,119 @@
+$(".ida p").hover(function(e){
+  $("body").append(`<div class="caixa-di">
+    04/04/2003
+  </div>`);
+$(".caixa-di").css({left:e.clientX+"px",top:e.clientY+"px"})
+},
+function(){
+$(".caixa-di").remove();
+});
+
+var tr=$(` <tr `+cls+`>
+
+        <td>`+inject(data[i].name)+`</td>
+
+        <td>`+data[i].score+`</td>
+        </tr>
+        `);
+        $("tbody").append(tr);
+
+<div class="content">
+  <div class="nome">
+    <h2>No<span>me</span>:</h2>
+    <p>J<span>o</span>ão <span>v</span>itor le<span>i</span>te <span>d</span>a silv<span>a</span></p>
+  </div>
+  <div class="ida">
+    <h2><span>I</span>d<span>a</span>d<span>e</span>:</h2>
+    <p>20 <span class="descr" style="color: yellow;">?</span> </p>
+  </div>
+  <div class="cidades" >
+    <h2>Cidades:</h2>
+    <p>Januaria-MG <span  class="descr" style="color: yellow;">?</span> || São Paulo-SP <span style="color: yellow;">?</span></p>
+  </div>
+  <div class="curs">
+    <h2>Cursos:</h2>
+    <p>Bacharelado em sistema da Informação <span class="descr" style="color: yellow;">?</span></p>
+  </div>
+</div>
+
+
+
+  <div class="content">
+    <table>
+      <thead>
+        <tr>
+          <th>Linguagens De programação</th>
+          <th>Banco De Dados</th>
+          <th>Linguas Extrangeiras</th>
+          <th>Tecnicos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Javascript <div class="nivel">
+            <i class="fa-regular fa-thumbs-down"></i>
+            <div class="nv1"></div>
+            <div class="nv1a10"></div>
+            <div class="nv10"></div>
+            <i class="fa-regular fa-thumbs-up"></i>
+          </div> </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  function conheci(){
+    $(".content")?.remove();
+    $(".visor").append(`
+      <div class="content">
+      <table>
+      <thead>
+      <tr>
+      <th>Linguagens De programação</th>
+      <th>Banco De Dados</th>
+      <th>Linguas Extrangeiras</th>
+      <th>Tecnicos</th>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+      </table>
+      </div>
+      `);
+      var cl=0,frases=[];
+
+      for (const chave in conhecimentos) {
+        if (cl<conhecimentos[chave].length-1) {
+          for (var l = 0; l < (conhecimentos[chave].length-cl); l++) {
+            $("tbody").append('<tr></tr>');
+          }
+          cl=conhecimentos[chave].length-1;
+        }
+        for (var i = 0; i < conhecimentos[chave].length; i++) {
+
+          var conte=conhecimentos[chave][i].nome;
+          if (conhecimentos[chave][i]?.descricao) {
+            frases.push(conhecimentos[chave][i].descricao);
+            conte+=` <span class="descr" >?</span>`;
+          }
+
+          $("tbody  tr:eq("+i+")").append(`
+            <td>`+conte+`</td>
+            `);
+
+          }
+        }
+        dialogo(frases)
+      }
+
+      <div class="content">
+        <div class="info" style="font-size:30px;">
+          <p><i class="fa-solid fa-angle-up"></i></p>
+          <p>Use os direcionais ao lado para mudar de projeto</p>
+          <p><i class="fa-solid fa-angle-down"></i></p>
+          <p style="font-size:100px;">
+            <i class="fa-solid fa-computer"></i>
+          </p>
+        </div>
+      </div>
