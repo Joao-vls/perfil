@@ -116,4 +116,6 @@ let contatos = {
   'Github': { 'link': "https://github.com/Joao-vls", 'logo': `<i class="fa-brands fa-github"></i>` },
   'Instagram': { 'link': "https://www.instagram.com/dev.leite/", 'logo': `<i class="fa-brands fa-square-instagram"></i>` },
   'Twitter': { 'link': "https://twitter.com/desleite", 'logo': `<i class="fa-brands fa-square-twitter"></i>` },
+  'Email': { 'link': "mailto:joa.v55j@gmail.com", 'logo': `<i class="fa-solid fa-envelope"></i>` },
+  'Telefone': { 'link': "tel:+5538992146362", 'logo': `<i class="fa-solid fa-phone"></i>` },
 };
