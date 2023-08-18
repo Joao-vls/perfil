@@ -70,7 +70,7 @@ let Projetos = [{
 {
   'nome': "imagens(design)",
   'descricao': "imagens e design produzidos",
-  'imagens': [{'link': "./img/imagens/_Con.png"},{'link': "./img/imagens/_Con.png"}
+  'imagens': [{'link': "./img/imagens/convite.png"},{'link': "./img/imagens/2.png"}
   ,{'link': "./img/imagens/6.png"},{'link': "./img/imagens/10.png"},{'link': "./img/imagens/acolhe.png"},
   {'link': "./img/imagens/fazen.png"},{'link': "./img/imagens/MINICURSO.png"},{'link': "./img/imagens/yot.png"},
   {'link': "./img/imagens/BASQUETE.png"},{'link': "./img/imagens/engaged!.png"},{'link': "./img/imagens/FORMAAMAR.png"},
