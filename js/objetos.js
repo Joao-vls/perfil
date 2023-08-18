@@ -70,7 +70,7 @@ let Projetos = [{
 {
   'nome': "imagens(design)",
   'descricao': "imagens e design produzidos",
-  'imagens': [{'link': "./img/imagens/_Con.png"},{'link': "./img/imagens/2.png"}
+  'imagens': [{'link': "./img/imagens/_Con.png"},{'link': "./img/imagens/_Con.png"}
   ,{'link': "./img/imagens/6.png"},{'link': "./img/imagens/10.png"},{'link': "./img/imagens/acolhe.png"},
   {'link': "./img/imagens/fazen.png"},{'link': "./img/imagens/MINICURSO.png"},{'link': "./img/imagens/yot.png"},
   {'link': "./img/imagens/BASQUETE.png"},{'link': "./img/imagens/engaged!.png"},{'link': "./img/imagens/FORMAAMAR.png"},
@@ -105,6 +105,7 @@ let conhecimentos = {
   'linguas': [{ 'nome': "Inglês", 'nivel': 2 }, { 'nome': "Espanhol", 'nivel': 5 }],
   'tecnicos': [
     { 'nome': "Manutenção e montagem de eletronicos", 'nivel': 7 },
+    { 'nome': "Canva", 'nivel': 9 },
     { 'nome': "Engenharia de software", 'nivel': 9, 'descricao': "metodologias ageis como kamban e scrum e outras tecnicas de desenvolvimento" },
     { 'nome': "Algoritmos", 'nivel': 10 },
     { 'nome': "Estrutura de dados", 'nivel': 8 },
