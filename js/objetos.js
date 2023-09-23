@@ -111,7 +111,10 @@ let conhecimentos = {
   'linguas': [{ 'nome': "Inglês", 'nivel': 2 }, { 'nome': "Espanhol", 'nivel': 5 }],
   'tecnicos': [
     { 'nome': "Manutenção e montagem de eletronicos", 'nivel': 7 },
-    { 'nome': "Canva", 'nivel': 9 },
+    { 'nome': "Canva", 'nivel': 10 },
+    { 'nome': "Edição de video", 'nivel': 7 },
+    { 'nome': "Edição de imagem", 'nivel': 9 },
+    { 'nome': "Edição de audio", 'nivel': 7 },
     { 'nome': "Engenharia de software", 'nivel': 9, 'descricao': "metodologias ageis como kamban e scrum e outras tecnicas de desenvolvimento" },
     { 'nome': "Algoritmos", 'nivel': 10 },
     { 'nome': "Estrutura de dados", 'nivel': 8 },
