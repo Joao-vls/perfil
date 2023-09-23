@@ -68,6 +68,11 @@ let Projetos = [{
   'pdfs': [{ 'nome': "BOAS PRATICAS PARA GARANTIR A SEGURANÇA DAS INFORMAÇÕES.", 'link': "./pdfs/sergurancainfo.pdf", 'descricao': "Artigo desenvolvido para a disciplina de metodologia de pesquisa" }]
 },
 {
+  'nome': "Videos editados",
+  'descricao': "videos editados por mim",
+  'videos': [{'nome':"internet ifnmg",'link': "https://www.instagram.com/reel/CuAJxAlufCw/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="}]
+},
+{
   'nome': "imagens(design)",
   'descricao': "imagens e design produzidos",
   'imagens': [{'link': "./img/imagens/convite.png"},{'link': "./img/imagens/2.png"}
@@ -76,6 +81,7 @@ let Projetos = [{
   {'link': "./img/imagens/BASQUETE.png"},{'link': "./img/imagens/engaged!.png"},{'link': "./img/imagens/FORMAAMAR.png"},
   {'link': "./img/imagens/Local.png"},]
 }
+
 ];
 let pessoa = {
   'nome': "João vitor leite de silva",

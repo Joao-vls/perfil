@@ -200,6 +200,21 @@ function projetcriar() {
       });
     }
   }
+  if(Projetos[carroselatual]?.videos){
+    $(".visor").append(`    <div class="content">
+    <div class="grid">
+    </div>
+    
+    </div>`)
+    for (var i = 0; i < Projetos[carroselatual].videos.length; i++) {
+        $(".grid").append(`
+          <a target="_blank" href="`+ Projetos[carroselatual].videos[i].link + `" class="rede">
+          <p style="font-size:20px">`+ Projetos[carroselatual].videos[i].nome + `</p>
+          <i class="fa-solid fa-circle-play fa-l"></i>
+          </a>
+         `);
+    } 
+  }
   return frases;
 }
 function cproject() {
