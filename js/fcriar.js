@@ -200,6 +200,27 @@ function projetcriar() {
       });
     }
   }
+  if (Projetos[carroselatual]?.logos) {
+    $(".visor").append(`    <div class="content">
+    <div class="grid">
+    </div>
+    
+    </div>`)
+    for (var i = 0; i < Projetos[carroselatual].logos.length; i++) {
+      $(".grid").append(`<div class="pdim" ><img style="float:left; width:100px; height:100px" src="` + Projetos[carroselatual].logos[i].link + `"> <button  type="button" style="width:100px; height:100px; float: right;"  ><i class="fa-solid fa-maximize"></i></button> </div>`);
+      $(".pdim button:eq(" + i + ")").click(function () {
+        $("body").append(`  <div class="imagem-grande">
+        <button class="mop" style="text-align: center; background: none; border: none; cursor: pointer;"><i class="fa-solid fa-rectangle-xmark"></i></button>
+        <img class="imagem" src=""></div>
+      </div>`);
+        $(".imagem").attr("src",$(this).siblings("img").attr("src"));
+        $(".mop").click(() => {
+          $(".imagem-grande").remove();
+        });
+        
+      });
+    }
+  }
   if(Projetos[carroselatual]?.videos){
     $(".visor").append(`    <div class="content">
     <div class="grid">

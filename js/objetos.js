@@ -80,8 +80,12 @@ let Projetos = [{
   {'link': "./img/imagens/fazen.png"},{'link': "./img/imagens/MINICURSO.png"},{'link': "./img/imagens/yot.png"},
   {'link': "./img/imagens/BASQUETE.png"},{'link': "./img/imagens/engaged!.png"},{'link': "./img/imagens/FORMAAMAR.png"},
   {'link': "./img/imagens/Local.png"},]
-}
-
+},
+{
+  'nome': "logos",
+  'descricao': "logos produzidos",
+  'logos': [{'link': "./img/logos/1.png"},{'link': "./img/logos/2.png"},{'link': "./img/logos/3.png"},
+  {'link': "./img/logos/4.png"},{'link': "./img/logos/5.png"},{'link': "./img/logos/6.png"},{'link': "./img/logos/7.png"},{'link': "./img/logos/8.png"},{'link': "./img/logos/9.png"}]}
 ];
 let pessoa = {
   'nome': "João vitor leite de silva",
