@@ -33,6 +33,18 @@ let Projetos = [{
   'status': "Incompleto"
 },
 {
+  'nome': "DriveOn",
+  'descricao': "teste layout com grid",
+  'link': "https://joao-vls.github.io/driveon/",
+  'status': "Completo"
+},
+{
+  'nome': "pokedex",
+  'descricao': "pokedex feito no bootcamp da dio",
+  'link': "https://joao-vls.github.io/js-developer-pokedex/",
+  'status': "Completo"
+},
+{
   'nome': "Jquery quizz",
   'descricao': "Jogo de quizz sobre o Jquery feito em grupo",
   'link': "https://joao-vls.github.io/jquery_quizz/",
