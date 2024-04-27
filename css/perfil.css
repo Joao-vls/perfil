@@ -12,10 +12,10 @@
   --cor-10:#00C3F3;
 }
 body{
-  background-color: #111;
+  background-color: #c7c7c7;
   margin: 0;
   padding: 0;
-  color: white;
+  color: rgb(0, 0, 0);
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -23,7 +23,7 @@ body{
 
 }
 span{
-  color: red;
+  color: rgb(38, 0, 255);
   font-family: Times New Roman;
 }
 .opcoes{
@@ -32,7 +32,7 @@ span{
   height: 70%;
   left: 20px;
   top: 140px;
-  border: 2px solid #c10000;
+  border: 2px solid #1d00c1;
   overflow: auto;
 }
 .opcoes button{
@@ -40,7 +40,7 @@ span{
   font-size: 18px;
   width: 100%;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 15px;
   cursor: pointer;
   transition-duration:0.5s ;
@@ -55,7 +55,7 @@ span{
   cursor: default;
 }
 .opcoes button:hover{
-  background-color: #cc04042b;
+  background-color: #0422cc2b;
 }
 .visor{
   position: absolute;
@@ -63,8 +63,8 @@ span{
   height: 77%;
   left: 215px;
   top: 110px;
-  border: 2px solid red;
-  background-color: #131313;
+  border: 2px solid rgb(38, 0, 255);
+  background-color: #a5a5a5;
   overflow: auto;
 }
 .mostra-img{
@@ -73,8 +73,8 @@ span{
   top: 20px;
   width:50px;
   height: 100px;
-  border: 5px solid #c10000;
-  background-color: #131313;
+  border: 5px solid #0003c1;
+  background-color: #0b0555;
   z-index: 50;
 }
 .mostra-img::before{
@@ -85,8 +85,8 @@ span{
   width:25%;
   height: 25%;
   border: 5px solid transparent;
-  border-top-color: #ff0000;
-  border-left-color: #ff0000;
+  border-top-color: #2f00ff;
+  border-left-color: #1900ff;
 }
 .mostra-img::after{
   content: "";
@@ -96,8 +96,8 @@ span{
   width:25%;
   height: 25%;
   border: 5px solid transparent;
-  border-bottom-color: #ff0000;
-  border-right-color: #ff0000;
+  border-bottom-color: #0004ff;
+  border-right-color: #0011ff;
 }
 
 .mod{
@@ -113,15 +113,15 @@ span{
   cursor: pointer;
 }
 .descr{
-  color: yellow;
+  color: rgb(255, 0, 0);
   cursor: pointer;
   padding: 5px;
 }
 .caixa-di{
   position: absolute;
   z-index: 99;
-  background-color: black;
-  border:1px solid red;
+  background-color: rgb(163, 163, 163);
+  border:1px solid rgb(38, 0, 255);
   border-radius: 10px;
   padding: 10px;
 }
@@ -137,7 +137,7 @@ table {
 }
 
 thead {
-  background-color: #c10000;
+  background-color: #0d00c1;
   font-weight: bolder;
   color: white;
 }
@@ -189,7 +189,7 @@ td {
 }
 
 .pdim{
-  background-color: black;
+  background-color: rgb(0, 3, 44);
 
 }
 .pdim p{
@@ -219,9 +219,9 @@ td {
   width:50px;
   height: 50px;
   font-size: 50px;
-  color: red;
+  color: rgb(17, 0, 255);
   font-family: Times New Roman;
-  background-color: #131313;
+  background-color: rgb(202, 201, 201);
 
 }
 .imagem-grande{
@@ -230,7 +230,7 @@ td {
   height: 100%;
   left: 0px;
   top: 0px;
-  background-color: #4d0101fb;
+  background-color: #09014dfb;
   z-index: 100;
   display: flex;
   align-items: center;

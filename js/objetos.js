@@ -91,7 +91,8 @@ let Projetos = [{
   ,{'link': "./img/imagens/6.png"},{'link': "./img/imagens/10.png"},{'link': "./img/imagens/acolhe.png"},
   {'link': "./img/imagens/fazen.png"},{'link': "./img/imagens/MINICURSO.png"},{'link': "./img/imagens/yot.png"},
   {'link': "./img/imagens/BASQUETE.png"},{'link': "./img/imagens/engaged!.png"},{'link': "./img/imagens/FORMAAMAR.png"},
-  {'link': "./img/imagens/Local.png"},]
+  {'link': "./img/imagens/Local.png"},{'link': "./img/imagens/mtr.jpg"},{'link': "./img/imagens/Plac.jpg"},{'link': "./img/imagens/visi.jpg"},
+  {'link': "./img/imagens/visi2.jpg"},{'link': "./img/imagens/modemat.jpg"},{'link': "./img/imagens/banne.jpg"},{'link': "./img/imagens/empr.jpg"}]
 },
 {
   'nome': "logos",
