@@ -80,7 +80,7 @@ function conheci() {
       <table>
       <thead>
       <tr>
-      <th>Linguagens De programação</th>
+      <th>Linguagens De programação e frameworks</th>
       <th>Banco De Dados</th>
       <th>Linguas Extrangeiras</th>
       <th>Tecnicos</th>

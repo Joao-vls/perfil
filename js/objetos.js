@@ -56,24 +56,24 @@ let Projetos = [{
   'disponivel': `https://github.com/Joao-vls/consultorio-Php--incompleto--`,
   'status': "Incompleto"
 },
-{
-  'nome': "Exercicio 1",
-  'descricao': "Exercicio de carroseis",
-  'link': "https://joao-vls.github.io/testes/arrayobjetos/arob.html",
-  'status': "Completo"
-},
-{
-  'nome': "Exercicio 2",
-  'descricao': "Exercicio sobre imagens,iframes,e tags",
-  'link': "https://joao-vls.github.io/testes/continente/index.html",
-  'status': "Completo"
-},
-{
-  'nome': "Exercicio 3",
-  'descricao': "Exercicio sobre trocar de modo claro para escuro,calculadora e busca interna",
-  'link': "https://joao-vls.github.io/testes/mudar-modo-calculo-busca-interna/1pg.html",
-  'status': "Completo"
-},
+// {
+//   'nome': "Exercicio 1",
+//   'descricao': "Exercicio de carroseis",
+//   'link': "https://joao-vls.github.io/testes/arrayobjetos/arob.html",
+//   'status': "Completo"
+// },
+// {
+//   'nome': "Exercicio 2",
+//   'descricao': "Exercicio sobre imagens,iframes,e tags",
+//   'link': "https://joao-vls.github.io/testes/continente/index.html",
+//   'status': "Completo"
+// },
+// {
+//   'nome': "Exercicio 3",
+//   'descricao': "Exercicio sobre trocar de modo claro para escuro,calculadora e busca interna",
+//   'link': "https://joao-vls.github.io/testes/mudar-modo-calculo-busca-interna/1pg.html",
+//   'status': "Completo"
+// },
 {
   'nome': "Textos(artigos)",
   'descricao': "textos,artigos e projetos, produzidos",
@@ -92,13 +92,15 @@ let Projetos = [{
   {'link': "./img/imagens/fazen.png"},{'link': "./img/imagens/MINICURSO.png"},{'link': "./img/imagens/yot.png"},
   {'link': "./img/imagens/BASQUETE.png"},{'link': "./img/imagens/engaged!.png"},{'link': "./img/imagens/FORMAAMAR.png"},
   {'link': "./img/imagens/Local.png"},{'link': "./img/imagens/mtr.jpg"},{'link': "./img/imagens/Plac.jpg"},{'link': "./img/imagens/visi.jpg"},
-  {'link': "./img/imagens/visi2.jpg"},{'link': "./img/imagens/modemat.jpg"},{'link': "./img/imagens/banne.jpg"},{'link': "./img/imagens/empr.jpg"}]
+  {'link': "./img/imagens/visi2.jpg"},{'link': "./img/imagens/modemat.jpg"},{'link': "./img/imagens/banne.jpg"},
+  {'link': "./img/imagens/empr.jpg"}]
 },
 {
   'nome': "logos",
   'descricao': "logos produzidos",
   'logos': [{'link': "./img/logos/1.png"},{'link': "./img/logos/2.png"},{'link': "./img/logos/3.png"},
-  {'link': "./img/logos/4.png"},{'link': "./img/logos/5.png"},{'link': "./img/logos/6.png"},{'link': "./img/logos/7.png"},{'link': "./img/logos/8.png"},{'link': "./img/logos/9.png"}]}
+  {'link': "./img/logos/4.png"},{'link': "./img/logos/5.png"},{'link': "./img/logos/6.png"},{'link': "./img/logos/7.png"},{'link': "./img/logos/8.png"},
+  {'link': "./img/logos/9.png"},{'link': "./img/logos/logcasa.jpg"},{'link': "./img/logos/logoandroid.jpg"}]}
 ];
 let pessoa = {
   'nome': "João vitor leite de silva",
@@ -122,10 +124,12 @@ let conhecimentos = {
   { 'nome': "PHP", 'nivel': 6 },
   { 'nome': "R", 'nivel': 2 },
   { 'nome': "Python", 'nivel': 2 },
-  { 'nome': "Java", 'nivel': 1 }
+  { 'nome': "Angular", 'nivel': 6 },
+  { 'nome': "Spring", 'nivel': 5 },
+  { 'nome': "Java", 'nivel': 6 }
   ],
   'bancodedados': [{ 'nome': "Mysql", 'nivel': 6 }, { 'nome': "orientdb", 'nivel': 4 }, { 'nome': "counchdb", 'nivel': 4 }],
-  'linguas': [{ 'nome': "Inglês", 'nivel': 2 }, { 'nome': "Espanhol", 'nivel': 5 }],
+  'linguas': [{ 'nome': "Inglês", 'nivel': 2 }, { 'nome': "Espanhol", 'nivel': 4 }],
   'tecnicos': [
     { 'nome': "Manutenção e montagem de eletronicos", 'nivel': 7 },
     { 'nome': "Canva", 'nivel': 10 },
@@ -142,7 +146,7 @@ let contatos = {
   'Linkedin': { 'link': "https://www.linkedin.com/in/joão-vitor-leite-363855231/", 'logo': `<i class="fa-brands fa-linkedin"></i>` },
   'Github': { 'link': "https://github.com/Joao-vls", 'logo': `<i class="fa-brands fa-github"></i>` },
   'Instagram': { 'link': "https://www.instagram.com/dev.leite/", 'logo': `<i class="fa-brands fa-square-instagram"></i>` },
-  'Twitter': { 'link': "https://twitter.com/desleite", 'logo': `<i class="fa-brands fa-square-twitter"></i>` },
+  // 'Twitter': { 'link': "https://twitter.com/desleite", 'logo': `<i class="fa-brands fa-square-twitter"></i>` },
   'Email': { 'link': "mailto:joa.v55j@gmail.com", 'logo': `<i class="fa-solid fa-envelope"></i>` },
   'Telefone': { 'link': "tel:+5538992146362", 'logo': `<i class="fa-solid fa-phone"></i>` },
 };
